@@ -133,13 +133,74 @@ else if (num1 %7 == 0)
 else {
     document.write(num1 + " NO ES MULTIPLO NI DE 7 NI DE 3 ")
 }
+/*---------------------6 DIA DE LA SEMANA------------------------*/
+
+var numero1 = prompt ("ingrese numero del 1 al 7")
+var num1 = parseInt (numero1)
+
+switch (num1) {
+    case 1: document.write (" Lunes")
+        break
+    case 2: document.write(" Martes")
+        break
+    case 3: document.write (" Miercoles")
+        break
+    case 4: document.write (" Jueves");
+        break
+    case 5: document.write (" Viernes");
+        break
+    case 6: document.write (" Sábado");
+        break
+    case 7: document.write (" Domingo");
+}
+    
+/*---------------------7 BOLETO------------------------*/
+
+var numero1 = prompt ("ingrese edad");
+var num1 = parseInt(numero1);
+
+if (num1 <= 12) 
+{
+    document.write(num1  + " Es domingo no paga boleto");
+}
+
+else if (num1 >=70)
+{
+    document.write(num1  + " Es domingo no paga boleto");
+}
+
+else 
+{
+    document.write(num1  + "Usted si paga boleto");
+}
+
+/*--------------8 CALCULADORA-------------------*/
+var numero1 = prompt ("ingrese primer numero");
+var num1 = parseInt(numero1);
+var eliga = prompt ("¿ingrese que quiere hacer?");
+var numero2 = prompt ("ingrese segundo numero");
+var num2 = parseInt(numero2);
+var suma = num1+num2;
+var sustraccion = num1-num2;
+var multiplicacion = num1*num2;
+var division = num1/num2;
+
+if (eliga == "+")
+{
+    document.write(suma);
+}
+else if (eliga == "-")
+{
+    document.write(sustraccion);
+}
+else if (eliga == "*")
+{
+    document.write(multiplicacion);
+}
+else if (eliga == "/")
+{
+    document.write(division);
+}
 
 
 
-
-
-
-
-
-
-       
